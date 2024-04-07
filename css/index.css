@@ -104,7 +104,62 @@
     font-weight: bold;
 }
 
+/* how we work */
 
+.howWeWork{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5px;
+}
+
+.workItem{
+    display: flex;
+    margin-top: 25px;
+    width: 95%;
+}
+
+.workItemSpan span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    z-index: 1;
+    width: 64px;
+    height: 64px;
+}
+
+.workItemSpan span::after{
+    content: '';
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 64px;
+    z-index: -1;
+    background: url('../img/components/home/how_we_work/span.png');
+}
+
+.workItemText{
+    margin-left: 15px;
+    color: #fff;
+}
+
+
+.workItemText h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.workItemText p{
+    font-size: 14px;
+    font-weight: unset;
+    margin-top: 5px;
+}
 
 
 
@@ -160,6 +215,27 @@
         width: 100%;
         margin-top: 20px;
     }
+    
+    /* how we work */
+
+    .howWeWork{
+        grid-template-columns: 1fr;
+    }
+
+    .workItem{
+        width: 100%;
+    }
+
+
+    .workItemText h2{
+        font-size: 18px;
+    }
+
+    .workItemText p{
+        font-size: 12px;
+    }
+
+
 }
 
 
@@ -198,6 +274,19 @@
     .carItemInfo span{
         font-size: 14px;
     }
+
+    /* how we work */
+
+    .howWeWork{
+        grid-template-columns: 1fr;
+    }
+
+    .workItem{
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    
 }
 
 @media(min-width: 920px) and (max-width: 1224px){
