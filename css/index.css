@@ -1,0 +1,145 @@
+.home{
+    margin-top: 120px;
+}
+
+.homeContent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.homeContent h1{
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.homeContentImage{
+    width: 100%;
+}
+
+.homeContainer{
+    position: relative;
+}
+
+
+.homeContentImage{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.homeContentImageSpan{
+    position: absolute;
+    text-align: center;
+    font-size: 96px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    color: #3F4C5A;
+    font-weight: bold;
+    letter-spacing: 15px;
+}
+
+.homeContentImage img{
+    z-index: 1;
+    margin-top: 45px;
+}
+
+.homeText{
+    margin-top: 45px;
+    color: #fff;
+}
+
+.homeText p{
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: unset;
+}
+
+.homeText .btn{
+    margin-top: 15px;
+}
+
+@media(min-width: 320px) and (max-width: 550px){
+    
+    .homeContent h1{
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .homeContainer{
+        position: relative;
+    }
+    
+    
+    .homeContentImage{
+        margin-top: 10px;
+    }
+    
+    .homeContentImageSpan{
+        position: absolute;
+        text-align: center;
+        font-size: 6vw;
+        width: 100%;
+        letter-spacing: 10px;
+    }
+    
+    .homeContentImage img{
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .homeText{
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .homeText p{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
+
+@media(min-width: 550px) and (max-width: 920px){
+
+    .homeContent h1{
+        color: #fff;
+        font-size: 24px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .homeContentImageSpan{
+        font-size: 7vw;
+        letter-spacing: 10px;
+    }
+    
+    .homeContentImage img{
+        margin-top: 15px;
+        width: 100%;
+    }
+}
+
+@media(min-width: 920px) and (max-width: 1320px){
+
+    .homeContent h1{
+        color: #fff;
+        font-size: 24px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .homeContentImageSpan{
+        font-size: 7vw;
+        letter-spacing: 10px;
+    }
+    
+    .homeContentImage img{
+        margin-top: 15px;
+        width: 100%;
+    }
+}

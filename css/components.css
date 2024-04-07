@@ -1,0 +1,61 @@
+body{
+    position: relative;
+    background: #141720;
+}
+
+.lineContent{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.lineContent span{
+    display: flex;
+    width: 1px;
+    height: 100%;
+    background: #24262E;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn{
+    display: inline-block;
+    background: #48516D;
+    border: 1px solid #48516D;
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 5px;
+    transition: .4s;
+    font-size: 14px;
+}
+
+.btn:hover{
+    background: none;
+    border: 1px solid #fff;
+}
+
+.blobLeft{
+    position: relative;
+}
+
+.blobLeft svg{
+    position: absolute;
+    z-index: -1;
+
+}
+
+.blobLeft svg:nth-child(1){
+    left: -100px;
+    top: 320px;
+    width: 200px;
+    height: 200px;
+}
