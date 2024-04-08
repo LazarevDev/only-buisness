@@ -69,6 +69,62 @@ body{
     font-size: 40px;
 }
 
+/* contacts */
+
+.contactContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.map{
+    height: 320px;
+    width: calc(100% - 390px);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contactBlock{
+    width: 360px;
+    background: #272B37;
+    border-radius: 20px;
+}
+
+.contactBlockContent{
+    padding: 25px;
+}
+
+.contactBlockContent h2{
+    font-size: 20px;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.contactBlockContent h2:nth-child(1){
+    margin-top: 0;
+}
+
+.contactItem{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.contactItem img{
+    width: 17px;
+    height: 17px;
+}
+
+.contactItem p{
+    color: #fff;
+    margin-left: 5px;
+}
+
+.contactItem a{
+    color: #fff;
+}
+
+
 @media(min-width: 320px) and (max-width: 550px){
     .sectionTitle span{
         font-size: 14px;
@@ -77,8 +133,44 @@ body{
     .sectionTitle h2{
         font-size: 24px;
     }
+
+    /* contacts */
+
+    .contactContainer{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    .contactBlock{
+        width: 100%;
+        margin-top: 25px;
+    }
 }
 
+
+@media(min-width: 550px) and (max-width: 960px){
+   
+    /* contacts */
+
+    .contactContainer{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    .contactBlock{
+        width: 100%;
+        margin-top: 25px;
+    }
+   
+}
 
 
 

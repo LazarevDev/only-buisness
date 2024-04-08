@@ -141,7 +141,7 @@
     width: 64px;
     height: 64px;
     z-index: -1;
-    background: url('../img/components/home/how_we_work/span.png');
+    background: url('../img/components/how_we_work/span.png');
 }
 
 .workItemText{
@@ -159,6 +159,33 @@
     font-size: 14px;
     font-weight: unset;
     margin-top: 5px;
+}
+
+/* about */
+
+.aboutContent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.aboutText{
+    width: calc(100% - 360px);
+}
+
+.aboutText p{
+    color: #fff;
+    font-weight: unset;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.aboutImg{
+    width: 320px;
+}
+
+.aboutImg img{
+    width: 100%;
 }
 
 
@@ -235,6 +262,29 @@
         font-size: 12px;
     }
 
+    /* about */
+
+    .aboutContent{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .aboutText{
+        width: 100%;
+    }
+
+    .aboutImg{
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .aboutImg img{
+        width: 100%;
+    }
+
+
+
 
 }
 
@@ -285,6 +335,24 @@
         margin-top: 35px;
         width: 100%;
     }
+
+    /* about */
+
+    .aboutContent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aboutText{
+        width: calc(100% - 260px);
+    }
+
+    .aboutImg{
+        width: 220px;
+        margin-top: 25px;
+    }
+
+    
 
     
 }
