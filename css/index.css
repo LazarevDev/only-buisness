@@ -1,5 +1,5 @@
 .home{
-    margin-top: 180px;
+    padding-top: 180px;
 }
 
 .homeContent{
@@ -193,7 +193,7 @@
 
 @media(min-width: 320px) and (max-width: 550px){
     .home{
-        margin-top: 120px;
+        padding-top: 120px;
     }
 
     .homeContent h1{
@@ -294,7 +294,7 @@
 
 @media(min-width: 550px) and (max-width: 920px){
     .home{
-        margin-top: 120px;
+        padding-top: 120px;
     }
 
     .homeContent h1{
