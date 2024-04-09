@@ -1,0 +1,248 @@
+.modelContent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.sliderContent{
+    width: 450px;
+}
+
+.slider {
+    display: flex;
+    width: 100%;
+}
+
+.slider img {
+    bottom: 0;
+    width: 100%; 
+    border-radius: 20px;
+}
+  
+.slider-nav-thumbnails {
+    display: flex;
+    width: 100%; 
+    margin: 20px auto; 
+}
+  
+.slider-nav-thumbnails img {
+    width: 120px;
+    height: 120px;
+    float: left; 
+    box-sizing: border-box; 
+    padding: 5px;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.slick-dots li button{
+    color: #ddd;
+}
+
+.characteristicsModel{
+    width: 723px;
+}
+
+.characteristicsModelItem{
+    color: #fff;
+    background: #12151F;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.characteristicsModelItem h2{
+    font-size: 16px;
+}
+
+.characteristicsModelItem p{
+    font-size: 14px;
+    font-weight: unset;
+    margin-top: 10px;
+}
+
+.characteristicsModelItem .btn{
+    margin-top: 15px;
+}
+
+/* carParkContainer */
+
+.carParkContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.carParkFilterContent{
+    width: 360px;
+}
+
+.carParkFilter{
+    background: #12151F;
+    width: calc(100% -  34px);
+    border-radius: 20px;
+    padding: 20px 17px;
+    color: #fff;
+}
+
+.carParkFilter h2{
+    font-size: 18px;
+}
+
+.carParkFilter p{
+    font-size: 14px;
+    font-weight: unset;
+    margin-top: 10px;
+}
+
+.carParkFilter label{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.carParkFilter label input{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none; /* Убираем контур при фокусе */
+    border: 2px solid #48516D; /* Цвет границы чекбокса */
+    background: none; /* Прозрачный фон */
+    width: 20px; /* Ширина чекбокса */
+    height: 20px; /* Высота чекбокса */
+    cursor: pointer; /* Курсор указывает на возможность взаимодействия */
+    margin-right: 10px; /* Расстояние между чекбоксом и текстом */
+    border-radius: 5px;
+}
+
+.carParkFilter label input:checked{
+    background: #48516D;
+}
+
+.carParkFilter .btn{
+    width: calc(100% - 60px);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.carPark{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: calc(100% - 400px);
+}
+
+
+
+@media(min-width: 320px) and (max-width: 620px){
+    .modelContent{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .sliderContent{
+        width: 90%;
+    }
+    
+    .slider-nav-thumbnails img{
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    .characteristicsModel{
+        width: 100%;
+    }
+
+    /* carParkContainer */
+
+    .carParkContainer{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .carParkFilterContent{
+        width: 100%;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 550px){
+    
+    /* carParkContainer */
+
+    .carParkContainer{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .carParkFilterContent{
+        width: 100%;
+    }
+    .carPark{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
+
+@media(min-width: 550px) and (max-width: 1220px){
+    
+    /* carParkContainer */
+
+    .carParkContainer{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .carPark{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+}
+
+
+@media(min-width: 620px) and (max-width: 920px){
+    .modelContent{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    
+    .sliderContent{
+        width: 350px;
+    }
+    
+    .slider {
+        display: flex;
+        width: 100%;
+    }
+    
+    .slider img {
+        bottom: 0;
+        width: 100%; 
+        border-radius: 20px;
+    }
+      
+    .slider-nav-thumbnails {
+        display: flex;
+        width: 100%; 
+        margin: 20px auto; 
+    }
+
+    .slider-nav-thumbnails img {
+        width: 80px;
+        height: 80px;
+        box-sizing: border-box; 
+        padding: 5px;
+        object-fit: cover;
+        margin: 0 20px;
+        border-radius: 10px;
+    }
+    
+    .characteristicsModel{
+        width: calc(100% - 380px);
+    }
+
+
+    
+}
